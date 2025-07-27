@@ -1,0 +1,56 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/aldri/Documents/PlatformIO/Projects/blinky/include",
+                "C:/Users/aldri/Documents/PlatformIO/Projects/blinky/src",
+                "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Core/ch32v00x",
+                "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v00x/inc",
+                "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v00x/src",
+                "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Startup",
+                "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/System/ch32v00x",
+                "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Debug/ch32v00x",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/aldri/Documents/PlatformIO/Projects/blinky/include",
+                    "C:/Users/aldri/Documents/PlatformIO/Projects/blinky/src",
+                    "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Core/ch32v00x",
+                    "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v00x/inc",
+                    "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v00x/src",
+                    "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Startup",
+                    "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/System/ch32v00x",
+                    "C:/Users/aldri/.platformio/packages/framework-wch-noneos-sdk/Debug/ch32v00x",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "CH32V003F4",
+                "CH32V00X",
+                "CH32V003",
+                "__PIO_CPP_SUPPORT__",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++17",
+            "compilerPath": "C:/Users/aldri/.platformio/packages/toolchain-riscv/bin/riscv-none-embed-gcc.exe",
+            "compilerArgs": [
+                "-msmall-data-limit=0",
+                "-msave-restore",
+                "-march=rv32ecxw",
+                "-mabi=ilp32e",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
